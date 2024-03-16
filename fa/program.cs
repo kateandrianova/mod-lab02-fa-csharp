@@ -25,7 +25,7 @@ namespace fans
         }; 
         static public State c = new State() {
             Name = "c",
-            IsAcceptState = true,
+            IsAcceptState = false,
             Transitions = new Dictionary<char, State>() 
         };
         static public State d = new State()
@@ -37,7 +37,7 @@ namespace fans
         static public State e = new State()
         {
             Name = "e",
-            IsAcceptState = true,
+            IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
         State InitialState = a;
